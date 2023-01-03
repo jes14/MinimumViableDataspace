@@ -24,11 +24,11 @@ variable "github_repo" {
 }
 # name of the storage account that'll hold the Terraform State for MVD deployments
 variable "tf_state_storageaccount" {
-  default = "mvdtfstate"
+  default = "mvdte309"
 }
 # name of the storage container that'll hold the Terraform State for MVD deployments
 variable "tf_state_container" {
-  default = "mvdtfstate"
+  default = "mvdte309"
 }
 # RG location
 variable "common_resourcegroup_location" {
