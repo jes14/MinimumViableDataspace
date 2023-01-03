@@ -28,7 +28,7 @@ variable "tf_state_storageaccount" {
 }
 # name of the storage container that'll hold the Terraform State for MVD deployments
 variable "tf_state_container" {
-  default = "mvdte309"
+  default = "mvdte310"
 }
 # RG location
 variable "common_resourcegroup_location" {
